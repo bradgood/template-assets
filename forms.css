@@ -1,0 +1,83 @@
+main .sqs-block-form .field-list {
+display: flex;
+flex-wrap: wrap;
+column-gap: 20px;
+}
+main .sqs-block-form .field-list > .form-item.field,
+main .sqs-block-form .field-list > .form-item.fields {
+width: 100%;
+}
+@media (min-width: 768px) {
+main .sqs-block-form .field-list > .form-item.field,
+main .sqs-block-form .field-list > .form-item.fields {
+width: calc(50% - 10px);
+}
+}
+main .sqs-block-form .field-list > .form-item.field.textarea,
+main .sqs-block-form .field-list > .form-item.fields.textarea,
+main .sqs-block-form .field-list > .form-item.field.checkbox,
+main .sqs-block-form .field-list > .form-item.fields.checkbox,
+main .sqs-block-form .field-list > .form-item.field.radio,
+main .sqs-block-form .field-list > .form-item.fields.radio,
+main .sqs-block-form .field-list > .form-item.field.likert,
+main .sqs-block-form .field-list > .form-item.fields.likert,
+main .sqs-block-form .field-list > .form-item.field.name,
+main .sqs-block-form .field-list > .form-item.fields.name {
+width: 100%;
+}
+main .sqs-block-form .field-list > .form-item.field.date input::-webkit-calendar-picker-indicator,
+main .sqs-block-form .field-list > .form-item.fields.date input::-webkit-calendar-picker-indicator {
+opacity: 0.55;
+cursor: pointer;
+}
+main .sqs-block-form .field-list > .form-item.field.date,
+main .sqs-block-form .field-list > .form-item.fields.date {
+grid-template-columns: 1fr !important;
+}
+main .sqs-block-form .field-list > .form-item.field.date > div,
+main .sqs-block-form .field-list > .form-item.fields.date > div {
+width: 100% !important;
+}
+main .sqs-block-form .field-list > .form-item.field.date input,
+main .sqs-block-form .field-list > .form-item.fields.date input,
+main .sqs-block-form .field-list > .form-item.field.currency input,
+main .sqs-block-form .field-list > .form-item.fields.currency input,
+main .sqs-block-form .field-list > .form-item.field.twitter input,
+main .sqs-block-form .field-list > .form-item.fields.twitter input {
+width: 100% !important;
+max-width: none !important;
+}
+main .sqs-block-form .field-list > .form-item.field.date input + span,
+main .sqs-block-form .field-list > .form-item.fields.date input + span,
+main .sqs-block-form .field-list > .form-item.field.currency input + span,
+main .sqs-block-form .field-list > .form-item.fields.currency input + span,
+main .sqs-block-form .field-list > .form-item.field.twitter input + span,
+main .sqs-block-form .field-list > .form-item.fields.twitter input + span {
+width: 100% !important;
+max-width: none !important;
+}
+main .sqs-block-form .field-list > .form-item.field.name,
+main .sqs-block-form .field-list > .form-item.fields.name {
+column-gap: 20px;
+}
+main .sqs-block-form .field-list .section {
+width: 100%;
+}
+main .sqs-block-form .field-list .section:nth-child(1) {
+margin-top: 0 !important;
+}
+main .sqs-block-form .field-list .section:nth-child(1) .title {
+font-family: var(--heading-font-font-family);
+font-size: min(calc((var(--heading-2-size-value) - 1) * 1.2vw + 1rem), max(calc((var(--heading-2-size-value) - 1) * 0.012 * var(--maxPageWidth) + 1rem), calc(var(--heading-2-size-value) * 1rem))) !important;
+font-weight: var(--heading-font-font-weight);
+line-height: calc(var(--heading-font-line-height) * (1 + (1 - var(--heading-2-size-value)) / 25));
+letter-spacing: var(--heading-font-letter-spacing);
+}
+main .sqs-block-form .field-list .section:nth-child(1) .description {
+font-size: 1rem !important;
+opacity: 1;
+}
+main .sqs-block-form .field-list .section:not(:has(.title)) {
+margin: 0 !important;
+}
+
