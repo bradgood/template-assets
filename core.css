@@ -100,3 +100,6 @@ main .sqs-block-form .field-list > .form-item.field > .description,
 main .sqs-block-form .field-list > .form-item.fields > .description {
 padding-top: 2px;
 }
+main .sqs-block-form .form-button-wrapper {
+margin-top: 12px;
+}
