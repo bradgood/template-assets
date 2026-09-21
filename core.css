@@ -101,5 +101,8 @@ main .sqs-block-form .field-list > .form-item.fields > .description {
 padding-top: 2px;
 }
 main .sqs-block-form .field-list:not(:has(> .form-item.section.line-field:last-child, > .form-item.section.line-field:nth-last-child(2))) {
-padding-bottom: 20px;
+padding-bottom: 12px;
+}
+main .sqs-block-form input[type="date"]:placeholder-shown {
+color: hsla(var(--tweak-form-block-field-input-color-hsl), 0.55) !important;
 }
