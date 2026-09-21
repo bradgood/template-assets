@@ -81,3 +81,12 @@ main .sqs-block-form .field-list .section:not(:has(.title)) {
 margin: 0 !important;
 }
 
+main .sqs-block-form.sqs-background-enabled {
+margin: 17px 17px 0 17px;
+box-shadow: 0 30px 60px -30px hsla(var(--black-hsl), 0.3);
+}
+@media (max-width: 767px) {
+main .sqs-block-form.sqs-background-enabled {
+margin: 17px;
+}
+}
