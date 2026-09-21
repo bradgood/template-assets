@@ -93,7 +93,7 @@ margin: 17px;
 main .sqs-block-form .field-list > .form-item.fields.name > legend {
 display: none;
 }
-main .sqs-block-form .field-list > .form-item.fields.name .caption {
+main .sqs-block-form .field-list > .form-item.fields.name .caption .caption-text {
 font-family: var(--form-block-title-text-font-font-family);
 font-weight: var(--form-block-title-text-font-font-weight);
 font-size: var(--form-block-title-text-font-font-size);
