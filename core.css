@@ -25,11 +25,6 @@ main .sqs-block-form .field-list > .form-item.field.name,
 main .sqs-block-form .field-list > .form-item.fields.name {
 width: 100%;
 }
-main .sqs-block-form .field-list > .form-item.field.date input::-webkit-calendar-picker-indicator,
-main .sqs-block-form .field-list > .form-item.fields.date input::-webkit-calendar-picker-indicator {
-opacity: 0.55;
-cursor: pointer;
-}
 main .sqs-block-form .field-list > .form-item.field.date,
 main .sqs-block-form .field-list > .form-item.fields.date {
 grid-template-columns: 1fr !important;
